@@ -57,3 +57,10 @@ jobs:
           python -m build
           echo Build complete...
 
+      - name: Publish
+        run: |
+          echo Publishing...
+          pip install build
+          python -m build
+          echo Publishing complete...
+
